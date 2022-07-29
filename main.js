@@ -1,23 +1,25 @@
-for (let i = 1; i <= 7; i++) {
-    console.log('*'.repeat(i))
-}
+const name = prompt("Whats your name")
+console.log("Hello " + name + " , " + "How are you?")
 
-fizzBuzz(150);
+let array1 = [12, 22, 55, 65, 522, 23],
+    array2 = [45, 65, 12,];
 
-function fizzBuzz(num) {
-    for (let i = 1; i <= num; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log('fizzbuzz');
-        }
-        else if (i % 3 === 0) {
-            console.log('fizz');
-        }
-        else if (i % 5 === 0) {
-            console.log('buzz');
-        }
-        else {
-            console.log(i);
-        }
-    }
+console.log(array1.length);
+console.log(array2.length);
 
+
+let color = 'red';
+
+switch (color) {
+    case 'yellow':
+        console.log('Color is Yellow');
+        break;
+    case 'red':
+        console.log('Color is Red');
+        break;
+    case 'Green':
+        console.log('Color is Green');
+    break;
+    default:
+        console.log('Default');
 }
