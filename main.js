@@ -23,3 +23,4 @@ switch (color) {
     default:
         console.log('Default');
 }
+// adfa
